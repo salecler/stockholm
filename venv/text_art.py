@@ -69,7 +69,7 @@ finished_decrypted = """
 ░░░██║░░░██║░░██║██║░░██║██║░╚███║██║░╚██╗██████╔╝  ██╗
 ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝╚═════╝░  ╚═╝"""
 
-def automatize_reverse():
+def text_reverse():
     os.system('clear')
     print(rev_stockholm)
     sleep(2)

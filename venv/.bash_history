@@ -1,91 +1,3 @@
-cd home
-ls
-clear
-cd admin
-ls
-echo "yo" > salu2.txt
-ls
-cat *
-exit
-cd home
-cd admin
-ls
-clear
-exit
-cd home
-cd amdin
-cd admin
-ls
-python3 stockholm.py 
-clear
-ls
-exit
-cd home/admin/
-ls
-python3 stockholm.py 
-python3 stockholm.py -h
-chmod
-clear
-chmod u+x stockholm.py 
-./stockholm.py 
-./stockholm.py -h
-./stockholm.py -r
-./stockholm.py -e
-exit
-cd home/admin
-s
-clear
-ls
-./stockholm.py 
-ls
-./stockholm.py -h
-./stockholm.py -v
-./stockholm.py -e
-./stockholm.py -version
-./stockholm.py -help
-clear
-./stockholm.py -help
-./stockholm.py --help
-clear
-./stockholm.py -h
-./stockholm.py -h
-./stockholm.py -h
-./stockholm.py -v
-exit
-cd home/admin
-ls
-./stockholm.py -v
-clear
-vim stockholm.py 
-..
-exit
-cd home/admin/
-ls
-./stockholm.py 
-./stockholm.py -h
-./stockholm.py -v
-./stockholm.py -version
-./stockholm.py --v
-clear
-./stockholm.py -h
-./stockholm.py ee
-./stockholm.py h
-./stockholm.py -h
-ls
-clear
-ls
-exit
-cd home/admin/
-ls
-exit
-cd home/admin
-ls
-./optional_arg.py 
-chmod u+x optional_arg.py 
-./optional_arg.py 
-clear
-./optional_arg.py 
-vim optional_arg.py 
 ./optional_arg.py 
 clear
 ./optional_arg.py -h
@@ -321,4 +233,268 @@ su root
 su root
 exit
 su root
+exit
+cd home/admin/
+ls
+./stockholm.py 
+cd infection/
+ls
+cat contact.txt 
+cd ..
+ls
+./stockholm.py -r
+clear
+ls
+cat key.key 
+./stockholm.py -r
+clear
+ls
+cd infection/
+ls
+rm contact.txt 
+echo "oui" > test.txt
+cd ..
+./stockholm.py 
+cd infection/
+cat *
+cd ..
+./stockholm.py -r
+vim stockholm.py 
+./stockholm.py -r
+cd infection/
+ls
+cat test.txt 
+clear
+rm test.txt 
+echo "Oui" > contact.txt
+cd ..
+./stockholm.py 
+cd infection/
+cat *
+clear
+cd ..
+ls
+./stockholm.py -r
+cat key.key 
+clear
+ls
+cd infection/
+ls
+cat contact.txt 
+clear
+ls
+cd ..
+lls
+ls
+vim stockholm.py 
+./stockholm.py -r
+cd infection/
+cat t
+cat *
+clear
+rm contact.txt 
+echo "bonjour" > text.txt
+cat *
+cd ..
+./stockholm.py -r
+cat key.key 
+cd infection/
+ls
+cat text.txt 
+cd ..
+./stockholm.py 
+cd infection/
+cat *
+clear
+cd ..
+./stockholm.py -r
+cat key.key 
+cd infection/
+ls
+cat text.txt 
+rm text.txt 
+echo "oui" > contact.txt
+..
+cd ..
+ls
+rm key.key 
+./stockholm.py -r
+ls
+cat key.key 
+cd infection/
+cat *
+cd ..
+./stockholm.py 
+cat key.key 
+cat key.key 
+cat key.key 
+./stockholm.py 
+cat key.key 
+./stockholm.py -r
+ls
+cd infection/
+ls
+cat contact.txt 
+clear
+cd ..
+vim stockholm.py 
+./stockholm.py 
+vim stockholm.py 
+./stockholm.py -r
+cat key.key 
+cd infection/
+ls
+cat contact.txt 
+rm contact.txt 
+echo "oui" > test.txt
+cd ..
+ls
+./stockholm.py -r
+cat key.key 
+cd infection/
+ls
+cat test.txt 
+cd ..
+./stockholm.py 
+clear
+ls
+rm key.key 
+clear
+cd infection/
+ls
+cat test.txt 
+cd ..
+ls
+./stockholm.py 
+vim stockholm.py 
+ls
+./stockholm.py 
+ls
+./stockholm.py -r
+./stockholm.py
+vim stockholm.py 
+clear
+ls
+./stockholm.py 
+vim stockholm.py 
+./stockholm.py 
+ls
+cd infection/
+ls
+cat test.txt 
+cd ..
+ls
+./stockholm.py -r
+cd infection/
+cat test.txt 
+cd ..
+cat key.key 
+./stockholm.py -v
+./stockholm.py -v
+./stockholm.py -v
+./stockholm.py -r
+./stockholm.py
+vim stockholm.py 
+cd infection/
+cat *
+cd ..
+./stockholm.py 
+vim stockholm.py 
+./stockholm.py 
+cd infection/
+ls
+cat test.txt 
+cd ..
+./stockholm.py -r
+./stockholm.py -r
+./stockholm.py -r
+cat key.key 
+clear
+ls
+cd infection/
+cat *
+ls
+cd ..
+ls
+vim stockholm.py 
+./stockholm.py 
+cd infection/
+ls
+cd ..
+ls
+python3 stockholm.py 
+cd infection/
+ls
+cat test.txt 
+cd ..
+clear
+ls
+vim stockholm.py 
+python3 stockholm.py 
+cd infection/
+ls
+cd ..
+vim infection/
+ls
+./stockholm.py 
+cd infection/
+ls
+clear
+cd ..
+ls
+vim stockholm.py 
+python3 stockholm.py 
+vim stockholm.py 
+python3 stockholm.py 
+cd infection/
+ls
+cat test.txt 
+cd ..
+python3 stockholm.py -r
+cd infection/
+ls
+cat test.txt 
+cd ..
+ls
+cat key.key 
+python3 stockholm.py -r
+python3 stockholm.py
+vim stockholm.py 
+cd infection/
+ls
+rm test.txt 
+echo "oui" > test.txt
+ls
+cat *
+cd ..
+./stockholm.py -r
+cd infection/
+cat *
+cd ..
+./stockholm.py 
+cd infection/
+cat *
+cd ..
+vim stockholm.py 
+cd infection/
+cat *
+cd ..
+clear
+python3 stockholm.py 
+ls
+cat key.key 
+rm key.key 
+python3 stockholm.py 
+cd infection/
+ls
+cat test.txt 
+cd ..
+python3 stockholm.py -r
+cd infection/
+ls
+cat *
+cd ..
+cat key.key 
+python3 stockholm.py -r
+vim stockholm.py 
 exit
