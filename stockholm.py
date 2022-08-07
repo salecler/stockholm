@@ -40,7 +40,18 @@ elif args.version == True:
     #print("Version 1.1 - ", salecler)
 elif args.reverse == True:
     print("reversing...")
-    #text_reverse()
+    os.chdir(user_dir)
+    with open("key", "rb") as thekey:
+        secret_key = thekey.read()
+    os.chdir(default_dir)
+    for element in os.listdir(default_dir):
+        with open(element, "rb") as thearchive:
+            en_content = thearchive.read()
+        de_content = Fernet(secret_key).decrypt(en_content)
+        with open(element, "wb") as thearchive:
+            thearchive.write(de_content)
+        base = os.path.splitext(element)[0]
+        os.rename(element, base)
 
 # Encrypt the files
 elif args.reverse == False and args.version == False:
@@ -62,4 +73,3 @@ elif args.reverse == False and args.version == False:
     for archive in os.listdir(default_dir):
         os.rename(archive, archive + '.ft')
         
-elif args.reverse == True:
