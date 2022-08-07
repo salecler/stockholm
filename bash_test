@@ -1,0 +1,5 @@
+mkdir infection
+cd infection
+echo "oui" > test.txt
+echo "1234567890" > contact.txt
+echo "Sacha Leclercq" > main.c
