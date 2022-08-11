@@ -3,3 +3,5 @@ cd infection
 echo "oui" > test.txt
 echo "1234567890" > contact.txt
 echo "Sacha Leclercq" > main.c
+echo "Sapas dencryptation" > non
+echo "S7890000000000dencryptation" > pasmoi.ft
