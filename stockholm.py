@@ -11,19 +11,6 @@ user = getuser()
 user_dir = '/home/' + user
 default_dir = '/home/' + user + '/infection/'
 
-# List with all files !
-ext_list = ()
-
-# Adding all the files that are encrypted by Wannacry to the list
-files_wcry = ()
-
-#with open("dictionnary_wcry.txt", "rb") as thedic:
-#    files_wcry = thedic.read()
-
-#test = "bonjour.txt"
-#last = os.path.splitext(test)[1]
-
-
 # Flags
 parser = argparse.ArgumentParser(
     description="""
@@ -44,11 +31,6 @@ parser.add_argument('-s', '--silent', action='store_true', help='will silent the
 
 args = parser.parse_args()
 
-# All files present in default_dir
-#for element in os.listdir(default_dir):
-#    if os.path.isfile(os.path.join(default_dir, element)):
-#        ext = os.path.splitext(element)[1]
-#        ext_list.append(ext)
 try:
     if args.version == True and args.reverse == True:
         err = "You are not allowed to use both flags at the same time."
@@ -150,7 +132,6 @@ try:
         
         for element in os.listdir(default_dir):
             element_ext = os.path.splitext(element)[-1]
-            print(element_ext)
             if element_ext != '.ft' and element_ext != '':
                 if args.silent == False:
                     print(element)
