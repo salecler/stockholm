@@ -17,8 +17,8 @@ ext_list = ()
 # Adding all the files that are encrypted by Wannacry to the list
 files_wcry = ()
 
-with open("dictionnary_wcry.txt", "rb") as thedic:
-    files_wcry = thedic.read()
+#with open("dictionnary_wcry.txt", "rb") as thedic:
+#    files_wcry = thedic.read()
 
 #test = "bonjour.txt"
 #last = os.path.splitext(test)[1]
