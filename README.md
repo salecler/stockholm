@@ -15,8 +15,29 @@ git clone https://github.com/salecler/stockholm.git
     
 ## ⚙️ Deployment
 
-To deploy this project run:
+### To deploy this project:
 
+Make a directory named "venv" inside the repo. It will be your volume inside your docker.
+```bash
+mkdir venv
+```
+Move the program inside "/venv/"
+```bash
+mv stockholm venv/
+```
+Move the bash script inside "/venv/"
+```bash
+mv bash_test venv/
+```
+Then you can run the Dockerfile.
+```bash
+./docker.sh
+```
+Once you're in the docker, go to the admin directory that has been created in the home carpet.
+```bash
+cd home/admin/
+```
+And you can finally execute the script.
 ```bash
 ./bash_test
 ```
