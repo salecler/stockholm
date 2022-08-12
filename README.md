@@ -4,6 +4,7 @@
 In this project you will develop a small program capable of causing great havoc. Although
 the greatest virtue of ransomware is its ability to spread through networks of hundreds
 of computers, in this case, your program will only affect a small part of your files.
+
 ## 🛠 Installation
 
 Clone the repository:
