@@ -17,7 +17,7 @@ Clone the repository:
 To deploy this project run:
 
 ```bash
-  ./bash_test
+./bash_test
 ```
 Then you can run it:
 ````
