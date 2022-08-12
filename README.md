@@ -9,7 +9,7 @@ of computers, in this case, your program will only affect a small part of your f
 Clone the repository:
 
 ```bash
-  git clone https://github.com/salecler/stockholm_1.0.git
+git clone https://github.com/salecler/stockholm_1.0.git
 ```
     
 ## ⚙️ Deployment
